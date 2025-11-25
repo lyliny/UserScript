@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Google Hit Hider by Domain 汉化版2
-// @author      Jefferson "jscher2000" Scher (https://greasyfork.org/scripts/1682) ,7980963 ,lyliny (https://github.com/lyliny/MY-JS)
-// @namespace   https://github.com/lyliny/MY-JS
+// @author      Jefferson "jscher2000" Scher (https://greasyfork.org/scripts/1682) ,7980963 (https://greasyfork.org/zh-CN/scripts/457749),lyliny (https://github.com/lyliny/UserScript)
+// @namespace   https://github.com/lyliny/UserScript
 // @version     2.3.5F
 // @copyright   Copyright 2025 Jefferson Scher
 // @license     BSD-3-Clause
