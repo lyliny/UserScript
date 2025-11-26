@@ -1196,7 +1196,7 @@ function addBlockForm(){
     }
     bfdcode += "<p style=\"margin:0.75em 0;\"><label title=\"切换显示或隐藏常规屏蔽结果标题\"><input " +
         "type=\"checkbox\" name=\"chkshownotcbf\" id=\"chkshownotcbf\"> 显示隐藏提示</label><br>" +
-        "<label title=\"切换屏蔽对话框和一键屏蔽"><input type=\"checkbox\" name=\"chk1clickbf\" " +
+        "<label title=\"切换屏蔽对话框和一键屏蔽\"><input type=\"checkbox\" name=\"chk1clickbf\" " +
         "id=\"chk1clickbf\"> 启用一键屏蔽</label></p></form>";
     bfd.innerHTML = bfdcode;
     document.body.appendChild(bfd);
