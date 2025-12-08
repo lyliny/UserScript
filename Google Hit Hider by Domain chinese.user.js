@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name        Google Hit Hider by Domain 汉化版2
 // @author      Jefferson "jscher2000" Scher (https://greasyfork.org/scripts/1682) ,7980963 (https://greasyfork.org/zh-CN/scripts/457749),lyliny (https://github.com/lyliny/UserScript)
+// @namespace   Google Hit Hider by Domain
 // @version     2.3.5F
 // @copyright   Copyright 2025 Jefferson Scher
 // @license     BSD-3-Clause
@@ -361,7 +362,7 @@ function GHHbDinit(){
         // Show pane if last open
         if (mpopen.substr(0,3) == "Y-Y") showManageForm("mngform");
         // Add menu item - Legacy Only
-        if (typeof GM_registerMenuCommand != "undefined") GM_registerMenuCommand("Manage Hiding", showManageForm);
+        if (typeof GM_registerMenuCommand != "undefined") GM_registerMenuCommand("管理隐藏列表", showManageForm);
         // Create block form
         if (!document.getElementById("ghhblockform")) addBlockForm();
         // Watch for changes that could be new instant or AJAX search results
@@ -1579,11 +1580,11 @@ function addManageForm(){
         "<label><input type=\"radio\" name=\"agglevel\" value=\"all\"> 始终部分域名</label><br>" +
         "<label><input type=\"radio\" name=\"agglevel\" value=\"www\"> 仅对www使用部分域名</label></p>" +
         "<p id=\"btnradios\" style=\"border-top:1px solid #000;padding-top:0.25em;margin-bottom:8px\">用户界面风格：<br>" +
-        "<label><input type=\"radio\" name=\"uistyle\" value=\"both\">显示Manage Hiding" + "和" + txts.block[0] + "按钮" + "</label><br>" +
+        "<label><input type=\"radio\" name=\"uistyle\" value=\"both\">显示管理移除列表" + "和" + txts.block[0] + "按钮" + "</label><br>" +
         "<label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type=\"checkbox\" name=\"mbiframe\" id=\"mbiframe\">在 iframe 中隐藏该按钮</label><br>" +
-        "<label title=\"您可以单击" + txts.block[0] + "按钮打开此对话框\"><input type=\"radio\" name=\"uistyle\" value=\"blk\">隐藏Manage Hiding按钮</label><br>" +
+        "<label title=\"您可以单击" + txts.block[0] + "按钮打开此对话框\"><input type=\"radio\" name=\"uistyle\" value=\"blk\">隐藏管理隐藏列表按钮</label><br>" +
         "<label title=\"" + txts.block[0] + "按钮仅在显示此对话框时显示\"><input type=\"radio\" name=\"uistyle\" value=\"mng\">隐藏" + txts.block[0] + "按钮</label><br>" +
-        "<span style=\"display:inline-block;margin-top:4px;\">Manage Hiding 按钮位置：</span><br>" +
+        "<span style=\"display:inline-block;margin-top:4px;\">管理隐藏列表 按钮位置：</span><br>" +
         "<label><input type=\"radio\" name=\"mngbtnpos\" value=\"R\"> 侧面</label> " +
         "<label><input type=\"radio\" name=\"mngbtnpos\" value=\"T\"> 顶部</label> " +
         "<label><input type=\"radio\" name=\"mngbtnpos\" value=\"B\"> 底部</label><br>" +
