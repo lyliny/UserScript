@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Steam 我满 18 岁了",
+  "version": "1.0.0",
+  "description": "解除 Steam 国区创作工坊内容限制",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://store.steampowered.com/account/preferences*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
